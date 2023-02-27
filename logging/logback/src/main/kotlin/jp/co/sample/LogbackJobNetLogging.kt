@@ -1,0 +1,344 @@
+package jp.co.sample
+
+
+class LogbackJobNetLogging {
+    companion object {
+        private const val DELIMITER = ":"
+        private val loggerMap = ""
+        private val loggerFactory = ""
+    }
+
+    fun nestCheck(inputstr: String) {
+        var i = 0
+
+        if (inputstr == "aa") {
+
+            i++
+
+            if (i == 1) {
+
+                i++
+                i++
+                i++
+                i++
+                i++
+                i++
+                i++
+
+                if (i == 8) {
+                    if (i == 8) {
+                        if (i == 8) {
+                            if (i == 8) {
+                                if (i == 8) {
+                                    if (i == 8) {
+                                        if (i == 8) {
+                                            if (i == 8) {
+                                                if (i == 8) {
+                                                    if (i == 8) {
+                                                        if (i == 8) {
+                                                            println()
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+            i++
+
+            return
+
+        }
+    }
+}
