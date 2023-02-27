@@ -74,6 +74,10 @@ allprojects {
     }
 }
 
+tasks.register("reportMerge", io.gitlab.arturbosch.detekt.report.ReportMergeTask) {
+    output = project.layout.buildDirectory.file("reports/detekt/merge.sarif") // "reports/detekt/merge.xml" or "reports/detekt/merge.sarif"
+}
+
 subprojects {
     buildscript {
         ext.kotlin_version = '1.6.10'
@@ -156,7 +160,22 @@ subprojects {
 
         // レポートファイルに出力されるファイルパスのベースとなる
         // これが設定されてないとレポートファイルのパスは絶対パスになる
-        basePath = rootDir.absolutePath
+        basePath = rootProject.projectDir.absolutePath
+
+        reports {
+//            reports.xml.required.set(true)
+             reports.sarif.required.set(true)
+        }
+    }
+
+    plugins.withType(io.gitlab.arturbosch.detekt.DetektPlugin) {
+        tasks.withType(io.gitlab.arturbosch.detekt.Detekt) { detektTask -> // Sadly it has to be eager.
+            finalizedBy(reportMerge)
+
+            reportMerge.configure { mergeTask ->
+                mergeTask.input.from(detektTask.sarifReportFile) //xmlReportFile or sarifReportFile
+            }
+        }
     }
 
     repositories {
